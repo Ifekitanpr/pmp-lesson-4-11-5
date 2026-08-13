@@ -4,7 +4,7 @@ import{createPortal}from'react-dom';
 import{ArrowLeft,ArrowRight,Check,ChevronDown,Menu,Target,Volume2,VolumeX,X,Coins,Scale,MessageCircleWarning}from'lucide-react';
 import'./styles.css';
 
-const A='/assets/';
+const A='./assets/';
 const tabs=['The leak','What it means','Three ledgers','Five questions','Exam lens'];
 const ledgers=[
 ['The Financial Ledger','05.png','Fines and penalties — privacy regulators often fine as a percentage of company revenue, while payment card schemes fine per month and per incident. Also covers remediation and re-audit costs, contract damages, higher fees imposed by financial acquirers going forward, insurance excess, and the rework bill itself. Example: a single card-data security incident — forensic investigation, regulatory fines, reissuing compromised cards to every affected customer — can dwarf the entire budget a project spent on conformance activities like training and testing.'],
